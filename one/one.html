@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>第一题</title>
+    <link rel="stylesheet" href="css/one.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="swiper-4.4.6/dist/css/swiper.min.css">
+</head>
+
+<body>
+    <div id="menu">
+        <ul class="menu_title clearfix">
+            <li class="title_left"><span></span>必抢清单</li>
+            <li class="title_right">更多<img src="img/yjt.jpg"></li>
+        </ul>
+        <div class="info_wrapper">
+        <div class="swiper-container_h">
+            <div class="swiper-wrapper clearfix">
+                <div class="swiper-slide">
+                    <a href="#" class="banner">
+                        <img src="img/12.jpg" />
+                    </a>
+                    <p class="min_title">奔跑在绿茵场，防滑球鞋脚上穿</p>
+                    <p class="detail">不少电视前的球迷，都希望自己可以亲自站在绿茵场上踢两脚。但是没有专业鞋可视十分危险的，球场上那...</p>
+                    <ul class="detail_img clearfix">
+                        <li>
+                            <img src="img/4.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/3.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/5.jpg" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="banner">
+                        <img src="img/11.jpg" />
+                    </a>
+                    <p class="min_title">奔跑在绿茵场，防滑球鞋脚上穿</p>
+                    <p class="detail">不少电视前的球迷，都希望自己可以亲自站在绿茵场上踢两脚。但是没有专业鞋可视十分危险的，球场上那...</p>
+                    <ul class="detail_img clearfix">
+                        <li>
+                            <img src="img/4.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/3.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/5.jpg" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="banner">
+                        <img src="img/1.jpg" />
+                    </a>
+                    <p class="min_title">奔跑在绿茵场，防滑球鞋脚上穿</p>
+                    <p class="detail">不少电视前的球迷，都希望自己可以亲自站在绿茵场上踢两脚。但是没有专业鞋可视十分危险的，球场上那...</p>
+                    <ul class="detail_img clearfix">
+                        <li>
+                            <img src="img/4.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/3.jpg" />
+                        </li>
+                        <li>
+                            <img src="img/5.jpg" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="js/jquery.js"></script>
+<script src="swiper-4.4.6/dist/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container_h', {
+        loop: true,
+        freeMode:true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+
+        },
+    });
+</script>
